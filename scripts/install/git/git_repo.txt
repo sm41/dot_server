@@ -1,5 +1,19 @@
-# docker-mirakurun-epgstation
-https://github.com/l3tnun/docker-mirakurun-epgstation
+# !/bin/bash
 
-# tt-rss
-https://gitlab.tt-rss.org/tt-rss/tt-rss
+
+declare -A hoge=(
+
+  [repository_name]=docker-mirakurun-epgstation
+  [title]=docker222
+  [url]=https://github.com/l3tnun/docker-mirakurun-epgstation
+
+)
+
+
+declare -A fuga=(
+
+  [repository_name]=tt-rss
+  [title]=tinytinyrss
+  [url]=https://gitlab.tt-rss.org/tt-rss/tt-rss
+
+)
