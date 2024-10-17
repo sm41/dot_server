@@ -30,8 +30,8 @@ export   XDG_DATA_HOME="${HOME}/.local/share"
 export  XDG_STATE_HOME="${HOME}/.local/state"
 
 # /mnt
-export  LOCAL_STORAGE_="/mnt/local/"
-export  LOCAL_STORAGE_="/mnt/local/"
+export    SERVER_LOCAL_STORAGE_333="/mnt/local/"
+export    SERVER_LOCAL_STORAGE_www="/mnt/local/"
 
 
 # hogefuga=/etc/profile.d

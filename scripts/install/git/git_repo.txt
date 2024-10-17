@@ -1,19 +1,15 @@
 # !/bin/bash
 
 
-declare -A hoge=(
+declare -A epgstation=(
 
-  [repository_name]=docker-mirakurun-epgstation
-  [title]=docker222
   [url]=https://github.com/l3tnun/docker-mirakurun-epgstation
 
 )
 
 
-declare -A fuga=(
+declare -A ttrss=(
 
-  [repository_name]=tt-rss
-  [title]=tinytinyrss
   [url]=https://gitlab.tt-rss.org/tt-rss/tt-rss
 
 )
