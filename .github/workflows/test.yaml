@@ -16,7 +16,7 @@ jobs:
             # - scripts/install/git/__git_clone.sh
             # - scripts/install/misc/__install_docker.sh
             # - scripts/install/misc/__install_vscode.sh
-            - scripts/deploy/mkdir/mkdir.sh
+            - scripts/deploy/mkdir/__mkdir.sh
             # - test.sh
 
         steps:
