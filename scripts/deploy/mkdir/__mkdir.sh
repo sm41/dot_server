@@ -1,6 +1,8 @@
 # !/#/bash
 set -eu
 
+source "${GITHUB_WORKSPACE}/root/home/sample.profile"
+
 # XDG
 mkdir -p "${XDG_CONFIG_HOME}"
 mkdir -p "${XDG_CACHE_HOME}"
