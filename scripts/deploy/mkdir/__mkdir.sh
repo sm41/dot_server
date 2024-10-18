@@ -18,10 +18,12 @@ mkdir -p "${HOME}/XDG_USER_DIRS/Pictures"
 mkdir -p "${HOME}/XDG_USER_DIRS/Videos"
 
 # /home
+
+
 mkdir -p "${HOME}/repository"
 
-
 # /mnt
+
 sudo mkdir -p "${SERVER_LOCAL_STORAGE_333}"
 sudo mkdir -p "${SERVER_LOCAL_STORAGE_www}"
 
