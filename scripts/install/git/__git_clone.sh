@@ -21,7 +21,7 @@ do
 
   # echo "repository_URL  : ${var_array[url]}"
   # echo "repository_NAME : ${var_array[url]##*/}"
-  git clone "${var_array[url]".git
+  git clone "${var_array[url]}.git"
 
 done < "${work_path}/${input_file}"
 
