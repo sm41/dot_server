@@ -1,15 +1,8 @@
 # !/bin/bash
+set -eu
 
 # https://docs.docker.com
 # https://docs.docker.com/engine/install/ubuntu/
-
-# get_OS=$(cat /usr/lib/os-release | grep -oP "(?<=^ID=).*(?=$)")
-
-# if [[ ${get_OS} == linuxmint ]]; then
-#   echo "ok"
-# else
-#   echo ${get_OS}
-# fi
 
 
 # Run the following command to uninstall all conflicting packages:

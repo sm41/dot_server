@@ -13,10 +13,11 @@ jobs:
           matrix:
             script:
             # - scripts/install/apt/__apt_install.sh
-            - scripts/install/git/__git_clone.sh
+            # - scripts/install/git/__git_clone.sh
             # - scripts/install/misc/__install_docker.sh
             # - scripts/install/misc/__install_vscode.sh
-            - test.sh
+            - scripts/deploy/mkdir/mkdir.sh
+            # - test.sh
 
         steps:
           - name: chekout
