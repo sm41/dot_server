@@ -1,5 +1,5 @@
 # !/bin/bash
-# set -eux
+set -eu
 
 work_path="$(realpath $(dirname "$0"))"
 input_file="$(find ${work_path}  -not \( -path $0 \)  -type f  -printf "%f\n")"
@@ -19,9 +19,9 @@ do
   var_name=$(grep -oP '(?<=declare -A ).*(?==\()'  <<<  "${arr_repo}")
   declare -n var_array="${var_name}"
 
-  echo "repository_URL  : ${var_array[url]}"
-  echo "repository_NAME : ${var_array[url]##*/}"
-  # git clone "${arr_repo}".git
+  # echo "repository_URL  : ${var_array[url]}"
+  # echo "repository_NAME : ${var_array[url]##*/}"
+  git clone "${var_array[url]".git
 
 done < "${work_path}/${input_file}"
 
