@@ -20,14 +20,3 @@ export    SERVER_LOCAL_STORAGE_333="/mnt/local/"
 export    SERVER_LOCAL_STORAGE_www="/mnt/local/"
 
 
-# hogefuga=/etc/profile.d
-
-
-# if [ -d ${hogefuga} ]; then
-#   for i in /etc/profile.d/*.sh; do
-#     if [ -r $i ]; then
-#       . $i
-#     fi
-#   done
-#   unset i
-# fi
