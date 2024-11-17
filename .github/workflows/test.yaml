@@ -12,12 +12,8 @@ jobs:
           fail-fast: false
           matrix:
             script:
-            # - scripts/install/apt/__apt_install.sh
-            # - scripts/install/git/__git_clone.sh
-            # - scripts/install/misc/__install_docker.sh
-            # - scripts/install/misc/__install_vscode.sh
             # - scripts/deploy/cp/__cp_etc_sysctl.d.sh
-            - scripts/deploy/mkdir/__mkdir.sh
+            # - scripts/deploy/mkdir/__mkdir.sh
             # - test.sh
 
         steps:
