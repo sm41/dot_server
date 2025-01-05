@@ -9,14 +9,13 @@
 # https://wiki.archlinux.org/title/XDG_Base_Directory
 
 # XDG
-export XDG_CONFIG_HOME="${HOME}/.config"
 export  XDG_CACHE_HOME="${HOME}/.cache"
+export XDG_CONFIG_HOME="${HOME}/.config"
 export   XDG_DATA_HOME="${HOME}/.local/share"
 export  XDG_STATE_HOME="${HOME}/.local/state"
 
-
 # /mnt
-export    SERVER_LOCAL_STORAGE_333="/mnt/local/"
-export    SERVER_LOCAL_STORAGE_www="/mnt/local/"
+export    SERVER_LOCAL_STORAGE_111="/mnt/local/111"
+export    SERVER_LOCAL_STORAGE_222="/mnt/local/222"
 
 
