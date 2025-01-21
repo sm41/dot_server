@@ -22,6 +22,6 @@ mkdir -p "${HOME}/XDG_USER_DIRS/Videos"
 mkdir -p "${HOME}/repository"
 
 # /mnt
-sudo mkdir -p "${SERVER_LOCAL_STORAGE_111}"
-sudo mkdir -p "${SERVER_LOCAL_STORAGE_222}"
+sudo mkdir -p "${SERVER_LOCAL_STORAGE_misc}"
+sudo mkdir -p "${SERVER_LOCAL_STORAGE_rec}"
 

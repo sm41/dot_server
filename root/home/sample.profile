@@ -15,7 +15,7 @@ export   XDG_DATA_HOME="${HOME}/.local/share"
 export  XDG_STATE_HOME="${HOME}/.local/state"
 
 # /mnt
-export    SERVER_LOCAL_STORAGE_111="/mnt/local/111"
-export    SERVER_LOCAL_STORAGE_222="/mnt/local/222"
+export    SERVER_LOCAL_STORAGE_misc="/mnt/local/misc"
+export    SERVER_LOCAL_STORAGE_rec="/mnt/local/rec"
 
 
