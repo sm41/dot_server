@@ -2,9 +2,9 @@
 
 qbittorrent-nox
 curl
-mpv
+#mpv
 jq
 samba
 #ffmpeg
 fonts-ipafont
-solaar
+#solaar
