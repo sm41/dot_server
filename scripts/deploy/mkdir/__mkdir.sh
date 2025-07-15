@@ -23,5 +23,5 @@ mkdir -p "${HOME}/repository"
 
 # /mnt
 sudo mkdir -p "${SERVER_LOCAL_STORAGE_misc}"
-sudo mkdir -p "${SERVER_LOCAL_STORAGE_rec}"
+# sudo mkdir -p "${SERVER_LOCAL_STORAGE_rec}"
 
