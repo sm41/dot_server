@@ -8,6 +8,13 @@ declare -A epgstation=(
 )
 
 
+declare -A qbittorrent-nox=(
+
+  [url]=https://github.com/qbittorrent/docker-qbittorrent-nox
+
+)
+
+
 declare -A ttrss=(
 
   [url]=https://gitlab.tt-rss.org/tt-rss/tt-rss
